@@ -1,0 +1,63 @@
+﻿body {
+    margin: 0px;
+    background-color: #F5F5F7;
+}
+
+.content {
+    background-color: #515154;
+    display: flex;
+    width: 100%;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+
+header {
+    width: 25%;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+#header1 a img {
+    margin-left: 170px;
+    width: 180px;
+    height: 45px;
+    float: left;
+}
+
+.header2 {
+    display: flex;
+}
+
+    .header2 a img {
+        height: 15px;
+        width: 20px;
+        justify-content: center;
+        margin: 17px 0 0 0;
+    }
+
+    .header2 a i {
+        height: 30px;
+        width: 25px;
+        color: white;
+        margin: 16px 0 0 0;
+    }
+
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav {
+    width: 50%;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    float: left;
+}
