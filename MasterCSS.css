@@ -9,12 +9,10 @@ body {
     background-color: #515154;
     display: flex;
     width: 100%;
-    <<<<<<< HEAD position: sticky;
+     position: sticky;
     z-index: 1;
     top: 0;
-    ======= position: fixed;
-    z-index: 1;
-    >>>>>>> 502f11e7b98deaad0b649beca16a32c099c20044
+   
 }
 
 
@@ -107,6 +105,8 @@ a:visited {
     padding: 0;
     justify-content: space-around;
     /* height: 100px; */
+    width:100%;
+    height:30%;
 }
 
 .slide_img {
@@ -133,6 +133,10 @@ a:visited {
         .slide_img img.active, .slide_img img:hover {
             border: 4px solid #606060;
         }
+
+#main_img {
+    width: 100%;
+}
 
 .btn {
     position: absolute;
@@ -166,7 +170,7 @@ a:visited {
 }
 
 
-=======
+
 
 .slider a img {
     height: 470px;

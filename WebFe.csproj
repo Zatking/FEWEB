@@ -67,6 +67,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ecss.css" />
+    <Content Include="Equipment.html" />
     <Content Include="HomePage.html" />
     <Content Include="Img\0000211_airpods-pro-2_240.png" />
     <Content Include="Img\0000594_ipad-air-4_240.png" />
@@ -167,6 +169,7 @@
     <Content Include="Img\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\vbc.exe" />
     <Content Include="Img\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\RoslynLatest\VBCSCompiler.exe" />
     <Content Include="Img\xatonkho.png" />
+    <Content Include="js.js" />
     <Content Include="MasterCSS.css" />
     <Content Include="MasterLayout.html" />
     <Content Include="ProductPage.html" />
