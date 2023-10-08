@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFe", "WebFe.csproj", "{067279FA-8CE6-444F-964C-2F8F0D8E9DD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetFE", "..\DotNetFE\DotNetFE.csproj", "{100F136E-B6E9-41DE-9654-74D50000EF65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{067279FA-8CE6-444F-964C-2F8F0D8E9DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{067279FA-8CE6-444F-964C-2F8F0D8E9DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{067279FA-8CE6-444F-964C-2F8F0D8E9DD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{100F136E-B6E9-41DE-9654-74D50000EF65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100F136E-B6E9-41DE-9654-74D50000EF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100F136E-B6E9-41DE-9654-74D50000EF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100F136E-B6E9-41DE-9654-74D50000EF65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

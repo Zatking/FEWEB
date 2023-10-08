@@ -33,6 +33,7 @@ header {
 
 .header2 {
     display: flex;
+    
 }
 
     .header2 a img {
@@ -64,6 +65,26 @@ nav {
     padding: 5px;
     float: left;
 }
+
+@media screen and (min-width:1200px)
+{
+    .nav_2{
+        display:none;
+    }
+    
+   
+}
+@media screen and (max-width:1200px)
+{
+    .nav_1{
+        display:none;
+    }
+}
+
+
+
+
+
 
 section {
     background-color: white;
@@ -251,69 +272,77 @@ col2 ul li {
 
 
 
-.equipment {
-    width: 80%;
-    background-color: green;
-}
+
  .register
 
 {
-    background-color: blue;
+    /*background-color: blue;*/
     height: 500px;
 }
 
 .equipment {
     width: 80%;
-    background-color: pink;
+    /*background-color: pink;*/
     margin: 0px auto;
+    /*display:flex;*/
+    justify-content:space-around;
 }
 
 
     .equipment .showproduct {
         display: flex;
-        justify-content: space-between;
+        justify-content:space-between;
         width: 100%;
         margin: 0px auto;
+       
+        
     }
 
 
         .equipment .showproduct a img {
-            height: 160px;
-            width: 380px;
+            height: 100%;
+            width: 90%;
             border-radius: 1%;
         }
 
     .equipment .product {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%;
         margin: 0px auto;
+
     }
 
         .equipment .product .boxproduct {
-            height: 400px;
-            width: 280px;
-            border: 5px solid;
+            height: 100%;
+            width: 100%;
+            /*border: 5px solid;*/
             /*display: flex;*/
             align-items: center;
             justify-content: center;
             position: relative;
             /*text-align:center;*/
+            
+           
            
            
         }
+       
+
+            
 
             .equipment .product .boxproduct a img {
-                border: 5px solid;
-                background-color: yellow;
-                 margin: 45px 5.5%;
+                /*border: 5px solid;*/
+                /*background-color: yellow;*/
+                margin: 45px 5.5%;
                 display: flex;
                 position: relative;
-                
+                height:80%;
+                width:80%;
             }
 
             .equipment .product .boxproduct .insentives {
-                border: 5px solid;
+                /*border: 5px solid;*/
                 display: flex;
                 position: absolute;
                 top: 0;
@@ -326,7 +355,7 @@ col2 ul li {
                 }
 
             .equipment .product .boxproduct .news {
-                border: 5px solid;
+                /*border: 5px solid;*/
                 display: flex;
                 position: absolute;
                 top: 0;
@@ -339,31 +368,47 @@ col2 ul li {
                 }
 
 
-.equipment .cost-info {
-    border: 5px solid;
+.name_product {
+   margin-left:6%;
+   /*border:1px solid;*/
+   width:80%;
+   height:10%;
+   text-transform:uppercase;
+   font-weight:bold;
+   
+  
+}
+
+.cost-info {
+    /*border: 5px solid;*/
     bottom: 0;
     display: flex;
     position: absolute;
     width: 100%;
-    justify-content: space-around
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    height:10%;
 }
 
-.equipment .cost {
-    color: #C6FFFF;
-}
+    .equipment .cost {
+        color:blue;
+        /*width:20%;*/
+    }
 
-.equipment .discount {
-    color: #86868B;
-    text-decoration: line-through;
-}
+    .equipment .discount {
+        color: #86868B;
+        text-decoration: line-through;
+        /*width: 20%;*/
+    }
 
-.equipment .percent {
-    color: #86868B;
-}
+    .equipment .percent {
+        color: #86868B;
+        /*width: 20%;*/
+    }
 
 
 .equipment .more {
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 220px;
     height: 40px;
     margin: 0 auto;
@@ -371,7 +416,7 @@ col2 ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10%;
+    border-radius: 100px;
 }
 
 h1 {
@@ -389,20 +434,20 @@ h1 {
     width: 80%;
     margin: 0px auto;
     display: flex;
-    justify-content: space-between;
-    position: relative;
+    justify-content:center;
 }
 
     .info .infonew {
         background-color: white;
         border: 5px solid;
+        width:100%;
     }
 
 
 
 
         .info .infonew a img {
-            height: 170px;
+            height: 60%;
             width: 100%;
             border-radius: 1%;
             background-color: #F7E8E8;
@@ -455,7 +500,7 @@ h1 {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 5%;
-    background: #C0C0C0;
+    /*background: #C0C0C0;*/
 }
 
 .receive p {
@@ -465,7 +510,7 @@ h1 {
 .receive_email {
     position: relative;
     display: flex;
-    background: #fff;
+    background: #fff;   
     width: 520px;
     margin: auto;
     height: 40px;
