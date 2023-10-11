@@ -57,3 +57,7 @@ C:\Users\thanh\source\repos\HeDieuHanh\WebFe\obj\Debug\WebFe.csproj.CoreCompileI
 C:\Users\thanh\source\repos\HeDieuHanh\WebFe\obj\Debug\WebFe.csproj.CopyComplete
 C:\Users\thanh\source\repos\HeDieuHanh\WebFe\obj\Debug\WebFe.dll
 C:\Users\thanh\source\repos\HeDieuHanh\WebFe\obj\Debug\WebFe.pdb
+C:\Users\thanh\source\repos\HeDieuHanh\WebFe\bin\EntityFramework.dll
+C:\Users\thanh\source\repos\HeDieuHanh\WebFe\bin\EntityFramework.SqlServer.dll
+C:\Users\thanh\source\repos\HeDieuHanh\WebFe\bin\EntityFramework.xml
+C:\Users\thanh\source\repos\HeDieuHanh\WebFe\bin\EntityFramework.SqlServer.xml

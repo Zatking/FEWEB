@@ -1,6 +1,7 @@
 ﻿
 
 body {
+    overflow-x:hidden;
     margin: 0px;
     background-color: #F5F5F7;
 }
@@ -33,6 +34,7 @@ header {
 
 .header2 {
     display: flex;
+    width:25%;  
     
 }
 
@@ -71,20 +73,54 @@ nav {
     .nav_2{
         display:none;
     }
+
+
     
    
 }
-@media screen and (max-width:1200px)
-{
-    .nav_1{
-        display:none;
+
+@media screen and (max-width:1200px) {
+    .nav_1 {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .header2 {
+        width: 50%;
+        /*border: 1px solid;*/
+        margin-right: 0%;
+    }
+
+    .header1 {
+        width: 50%;
+    }
+
+    #header1 a img {
+        margin: 0 60%;
+    }
+
+    .header2 a img {
+        height: 15px;
+        width: 20px;
+        margin-right: 0%;
+        border: 1px solid;
+    }
+
+
+    .header2 a i {
+        height: 30px;
+        width: 25px;
+        color: white;
+        padding-left:10%;
+    }
+
+    .nav_2 {
+        width: 100%;
     }
 }
-
-
-
-
-
 
 section {
     background-color: white;
@@ -291,8 +327,8 @@ col2 ul li {
 
     .equipment .showproduct {
         display: flex;
-        justify-content:space-between;
-        width: 100%;
+        justify-content:space-around;
+        width: 90%;
         margin: 0px auto;
        
         
@@ -310,22 +346,19 @@ col2 ul li {
         justify-content: space-around;
         width: 100%;
         margin: 0px auto;
-
     }
 
         .equipment .product .boxproduct {
             height: 100%;
             width: 100%;
-            /*border: 5px solid;*/
+            /*border: 1px solid;*/
             /*display: flex;*/
             align-items: center;
             justify-content: center;
             position: relative;
             /*text-align:center;*/
-            
-           
-           
-           
+
+            background-color: #FFFFFF;
         }
        
 
@@ -435,12 +468,15 @@ h1 {
     margin: 0px auto;
     display: flex;
     justify-content:center;
+    /*border:1px solid;*/
+    border-radius:15%;
+    background-color:red;
 }
 
     .info .infonew {
         background-color: white;
-        border: 5px solid;
-        width:100%;
+        /*border: 5px solid;*/
+        width:90%;
     }
 
 
@@ -448,7 +484,7 @@ h1 {
 
         .info .infonew a img {
             height: 60%;
-            width: 100%;
+            width: 90%;
             border-radius: 1%;
             background-color: #F7E8E8;
             display: flex;
@@ -476,8 +512,6 @@ h1 {
             line-height: 20px;
             padding: 10px 20px 0 20px;
             text-align: left;
-            position: absolute;
-            bottom: 0;
         }
 
 
@@ -534,4 +568,32 @@ h1 {
         border-radius: 20px;
         background: #0000FF;
         color: #fff;
+    }
+
+
+.btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(225, 224, 224, 0.2);
+    top: 50%;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.3);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background-color: rgba(224, 224, 224, 0.7);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .btn.left {
+        left: 50px;
+    }
+
+    .btn.right {
+        right: 50px;
     }

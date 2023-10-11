@@ -1,0 +1,93 @@
+﻿body {
+    overflow-x: hidden;
+    margin: 0px;
+    background-color: #F5F5F7;
+}
+
+.main{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
+
+.main .left{
+    width:50%;
+}
+.left img{
+    height:60%;
+    width:80%;
+    margin:10% 15%;
+}
+
+    .main .right {
+        width: 50%;
+    }
+    .form_register{
+      font-size:1.1em;
+    }
+        .form_register #referalcode {
+            height: 40px;
+            width: 80%;
+            border: 1px solid;
+            border-radius: 10px;
+        }
+        .form_register #fullname {
+            height: 40px;
+            width: 80%;
+            border: 1px solid;
+            border-radius: 10px;
+        }
+
+#phone {
+    height: 40px;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+#mail {
+    height: 40px;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+#username {
+    height: 40px;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+#password {
+    height: 40px;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+#repassword {
+    height: 40px;
+    width: 80%;
+    border:1px solid;
+    border-radius:10px;
+}
+
+.button_dk {
+    height: 50px;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #0066CC;
+    font-size: 1.1em;
+}
+
+.date{
+    width:10%;
+    height:40px;
+}
+
+span a:link{
+    text-decoration:none;
+}
+
+span a:visited {
+    color: #A0D0F6;
+}
+
