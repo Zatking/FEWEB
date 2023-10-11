@@ -1,0 +1,223 @@
+﻿﻿
+<!DOCTYPE html>
+<html lang="vi" dir="ltr" class="html-shopping-cart-page">
+﻿
+<head>
+    <link href="/CartStyle.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="master-wrapper-content">
+        <div class="master-column-wrapper">
+            <div class="center-1">
+                <div class="breadcrumb">
+                    <ul>
+                        <li>
+                            <a href="">Trang chủ</a>
+                        </li>
+                        <li>
+                            <span> › </span>
+                            <a href="">Giỏ hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="page shopping-cart-page">
+                    <div class="page-body">
+                        <div class="order-summary-content container">
+                            <form method="post" enctype="multipart/form-data" id="shopping-cart-form" action="/cart" novalidate="novalidate">
+                                <div class="shopping-cart-info">
+                                    <div class="cart-detail">
+                                        <div class="table-wrapper">
+                                            <table class="cart">
+                                                <colgroup>
+                                                    <col width="1">
+                                                    <col width="1">
+                                                    <col>
+                                                    <col width="1">
+                                                    <col width="1">
+                                                    <col width="1">
+                                                    <col width="1">
+                                                </colgroup>
+                                                <thead>
+                                                    <tr>
+                                                        <th class="sku">SKU</th>
+                                                        <th class="product-picture">Hình ảnh</th>
+                                                        <th class="product">Tên sản phẩm</th>
+                                                        <th class="unit-price">Giá bán</th>
+                                                        <th class="quantity">Số lượng</th>
+                                                        <th class="subtotal">Toàn bộ</th>
+                                                        <th class="remove-from-cart"></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="sku">
+                                                            <label class="td-title">SKU:</label>
+                                                            <span class="sku-number"></span>
+                                                        </td>
+                                                        <td class="product-picture">
+                                                            <a href="/iphone-14-pro-max">
+                                                                <img alt="Ảnh của iPhone 14 Pro Max 128GB" src="https://shopdunk.com/images/thumbs/0007808_iphone-14-pro-max-128gb_80.png" title="Hiển thị chi tiết cho iPhone 14 Pro Max 128GB">
+                                                            </a>
+                                                            <input type="hidden" class="product-id" value="1798">
+                                                        </td>
+                                                        <td class="product">
+                                                            <a href="/iphone-14-pro-max" class="product-name">iPhone 14 Pro Max 128GB</a>
+                                                            <div class="attributes">Khu vực: Khu vực miền Bắc<br>Hình thức: Mua thẳng<br>Màu sắc: Gold</div>
+                                                            <div class="edit-item"><a href="https://shopdunk.com/iphone-14-pro-max?updatecartitemid=160850">Sửa</a></div>
+                                                        </td>
+                                                        <td class="unit-price">
+                                                            <label class="td-title">Giá bán:</label>
+                                                            <span class="product-unit-price">26.490.000₫</span>
+                                                        </td>
+                                                        <td class="quantity">
+                                                            <div class="cart-quantity-input-container">
+                                                                <svg id="cart-quantity-input-subtract160850" width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <g clip-path="url(#clip0_10158_65576)">
+                                                                    </g>
+                                                                    <defs>
+                                                                        <clipPath id="clip0_10158_65576">
+                                                                            <rect width="11" height="11" fill="white"></rect>
+                                                                        </clipPath>
+                                                                    </defs>
+                                                                </svg>
+                                                                <input name="itemquantity160850" id="itemquantity160850" type="text" value="1" class="qty-input" aria-label="Số lượng">
+                                                                <svg id="cart-quantity-input-add160850" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <g clip-path="url(#clip0_10158_65579)">
+                                                                    </g>
+                                                                    <defs>
+                                                                        <clipPath id="clip0_10158_65579"><rect width="12" height="12" fill="white" transform="translate(0 0.5)"></rect></clipPath>
+                                                                    </defs>
+                                                                </svg>
+                                                            </div>
+                                                        </td>
+                                                        <td class="subtotal">
+                                                            <label class="td-title">Toàn bộ:</label>
+                                                            <span class="product-subtotal">26.490.000₫</span>
+                                                        </td>
+                                                        <td class="remove-from-cart">
+                                                            <input type="checkbox" name="removefromcart" id="removefromcart160850" value="160850" aria-label="Tẩy">
+                                                            <button type="button" name="updatecart" class="remove-btn once-submit-button"></button>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="cart-options">
+                                            <div class="common-buttons">
+                                                <button type="submit" name="updatecart" id="updatecart" class="button-2 update-cart-button once-submit-button">Cập nhật giỏ hàng</button>
+                                                <button type="submit" name="continueshopping" class="button-2 continue-shopping-button once-submit-button">Tiếp tục mua sắm</button>
+                                            </div>
+                                            <div class="selected-checkout-attributes"></div>
+                                        </div>
+                                    </div>
+                                    <div class="all_cross-sells cart_detail">
+                                        <div class="product-grid cross-sells">
+                                            <div class="title"><strong>Gợi ý phụ kiện đi kèm</strong></div>
+                                            <div class="item-grid slick-initialized slick-slider">
+                                                <div class="slick-list draggable">
+                                                    <div class="slick-track" style="opacity: 1; width: 688px; transform: translate3d(0px, 0px, 0px);">
+                                                        <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 162px;">
+                                                            <div>
+                                                                <div class="item-box" style="width: 100%; display: inline-block; height: 320.667px;">
+                                                                    <div class="product-item" data-productid="144" style="height: 253px;">
+                                                                        <div class="picture">
+                                                                            <a href="/20w-usb-c-power-adapter" title="Hiển thị chi tiết cho Sạc 20W USB-C Power Adapter " tabindex="0">
+                                                                                <img alt="Ảnh của Sạc 20W USB-C Power Adapter " src="https://shopdunk.com/images/thumbs/0001395_sac-20w-usb-c-power-adapter_240.png" title="Hiển thị chi tiết cho Sạc 20W USB-C Power Adapter ">
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="details">
+                                                                            <span class="product-title"> <a href="/20w-usb-c-power-adapter" tabindex="0">Sạc 20W USB-C Power Adapter </a> </span><div class="product-rating-box" title="0 bài đánh giá"><div class="rating"><div style="width:0%"></div></div></div><div class="description"></div><div class="add-info"><div class="prices"><span class="price old-price">690.000₫</span> <span class="price actual-price">490.000₫</span></div><div class="append_price_percent"></div><div class="buttons"><button type="button" class="button-2 product-box-add-to-cart-button" onclick="return AjaxCart.addproducttocart_catalog(&quot;/addproducttocart/catalog/144/1/1?forceredirection=True&quot;),!1" tabindex="0">Mua ngay</button> <button type="button" class="button-2 add-to-compare-list-button" title="Thêm vào danh sách so sánh" onclick="return AjaxCart.addproducttocomparelist(&quot;/compareproducts/add/144&quot;),!1" tabindex="0">Thêm vào danh sách so sánh</button> <button type="button" class="button-2 add-to-wishlist-button" title="Thêm vào danh sách yêu thích" onclick="return AjaxCart.addproducttocart_catalog(&quot;/addproducttocart/catalog/144/2/1&quot;),!1" tabindex="0">Thêm vào danh sách yêu thích</button></div></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 162px;">
+                                                            <div><div class="item-box" style="width: 100%; display: inline-block; height: 320.667px;"><div class="product-item" data-productid="1961" style="height: 253px;"><div class="picture"><a href="/apple-care-for-iphone-14-pro-max" title="Hiển thị chi tiết cho AppleCare+ for iPhone 14 Pro Max" tabindex="0"> <img alt="Ảnh của AppleCare+ for iPhone 14 Pro Max" src="https://shopdunk.com/images/thumbs/0011256_applecare-for-iphone-14-pro-max_240.png" title="Hiển thị chi tiết cho AppleCare+ for iPhone 14 Pro Max"> </a></div><div class="details"><span class="product-title"> <a href="/apple-care-for-iphone-14-pro-max" tabindex="0">AppleCare+ for iPhone 14 Pro Max</a> </span><div class="product-rating-box" title="0 bài đánh giá"><div class="rating"><div style="width:0%"></div></div></div><div class="description"></div><div class="add-info"><div class="prices"><span class="price old-price">5.990.000₫</span> <span class="price actual-price">5.490.000₫</span></div><div class="append_price_percent"></div><div class="buttons"><button type="button" class="button-2 product-box-add-to-cart-button" onclick="return AjaxCart.addproducttocart_catalog(&quot;/addproducttocart/catalog/1961/1/1?forceredirection=True&quot;),!1" tabindex="0">Mua ngay</button> <button type="button" class="button-2 add-to-compare-list-button" title="Thêm vào danh sách so sánh" onclick="return AjaxCart.addproducttocomparelist(&quot;/compareproducts/add/1961&quot;),!1" tabindex="0">Thêm vào danh sách so sánh</button> <button type="button" class="button-2 add-to-wishlist-button" title="Thêm vào danh sách yêu thích" onclick="return AjaxCart.addproducttocart_catalog(&quot;/addproducttocart/catalog/1961/2/1&quot;),!1" tabindex="0">Thêm vào danh sách yêu thích</button></div></div></div></div><div class="title_price_percent">Giảm giá mua kèm:<span class="price_percent">200.000₫</span></div></div></div>
+                                                        </div>
+                                                        <div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 162px;"><div><div class="item-box" style="width: 100%; display: inline-block; height: 320.667px;"><div class="product-item" data-productid="2595" style="height: 253px;"><div class="picture"><a href="/kinh-cuong-luc-zeelot-apple-iphone-solidsleek-trong" title="Hiển thị chi tiết cho Cường lực Zeelot Apple iPhone Soildsleek - Trong suốt" tabindex="0"> <img alt="Ảnh của Cường lực Zeelot Apple iPhone Soildsleek - Trong suốt" src="https://shopdunk.com/images/thumbs/0016024_cuong-luc-zeelot-apple-iphone-soildsleek-trong-suot_240.jpeg" title="Hiển thị chi tiết cho Cường lực Zeelot Apple iPhone Soildsleek - Trong suốt"> </a></div><div class="details"><span class="product-title"> <a href="/kinh-cuong-luc-zeelot-apple-iphone-solidsleek-trong" tabindex="0">Cường lực Zeelot Apple iPhone Soildsleek - Trong suốt</a> </span><div class="product-rating-box" title="0 bài đánh giá"><div class="rating"><div style="width:0%"></div></div></div><div class="description"></div><div class="add-info"><div class="prices"><span class="price old-price">390.000₫</span> <span class="price actual-price">250.000₫</span></div><div class="append_price_percent"></div><div class="buttons"><button type="button" class="button-2 product-box-add-to-cart-button" onclick="return AjaxCart.addproducttocart_catalog(&quot;/addproducttocart/catalog/2595/1/1?forceredirection=True&quot;),!1" tabindex="0">Mua ngay</button> <button type="button" class="button-2 add-to-compare-list-button" title="Thêm vào danh sách so sánh" onclick="return AjaxCart.addproducttocomparelist(&quot;/compareproducts/add/2595&quot;),!1" tabindex="0">Thêm vào danh sách so sánh</button> <button type="button" class="button-2 add-to-wishlist-button" title="Thêm vào danh sách yêu thích" onclick="return AjaxCart.addproducttocart_catalog(&quot;/addproducttocart/catalog/2595/2/1&quot;),!1" tabindex="0">Thêm vào danh sách yêu thích</button></div></div></div></div></div></div></div>
+                                                        <div class="slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 162px;"><div><div class="item-box" style="width: 100%; display: inline-block; height: 320.667px;"><div class="product-item" data-productid="161" style="height: 253px;"><div class="picture"><a href="/iphone-14-pro-max-case-with-magsafe" title="Hiển thị chi tiết cho iPhone 14 Pro Max Clear Case with MagSafe" tabindex="0"> <img alt="Ảnh của iPhone 14 Pro Max Clear Case with MagSafe" src="https://shopdunk.com/images/thumbs/0001737_iphone-14-pro-max-clear-case-with-magsafe_240.jpeg" title="Hiển thị chi tiết cho iPhone 14 Pro Max Clear Case with MagSafe"> </a></div><div class="details"><span class="product-title"> <a href="/iphone-14-pro-max-case-with-magsafe" tabindex="0">iPhone 14 Pro Max Clear Case with MagSafe</a> </span><div class="product-rating-box" title="0 bài đánh giá"><div class="rating"><div style="width:0%"></div></div></div><div class="description"><p style="line-height:2"><span style="color:#e03e2d"><strong>Ưu đãi thanh toán </strong><span style="color:#007edb"><a style="color:#007edb" href="https://shopdunk.com/tong-hop-chuong-trinh-khuyen-mai-thang" tabindex="0"><span style="color:#000">(</span>xem thêm</a></span><span style="color:#007edb"><a style="color:#007edb" href="https://shopdunk.com/tong-hop-chuong-trinh-khuyen-mai-thang" tabindex="0"><span style="color:#000">)</span></a></span></span></p><p style="line-height:2"><span style="color:#000"><img src="/images/uploaded/icon-gif/homecredit.jpg" alt="" width="30" height="16"> Giảm <strong>7%</strong> tối đa <strong>700.000đ </strong>qua <span style="color:#007edb"><a style="color:#000" href="https://shorten.asia/BuCDC7m8" tabindex="0"><strong>Home PayLate</strong></a> <strong data-toggle="modal" data-target="#myModal2">(xem chi tiết)</strong></span></span></p><div id="myModal2" class="modal fade"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 id="h_18431149822361687751307080" class="modal-title"><span style="color:#e03e2d"><strong>Ưu đãi thanh toán qua Home Paylater</strong></span></h5><button class="close" style="color:#000" type="button" data-dismiss="modal" tabindex="0">x</button></div><div class="modal-body"><p><span style="color:#000"><img src="/images/uploaded/tích tròn (1).jpg" alt="" width="16" height="17"> Giảm 50% tối đa <strong>100.000đ</strong> cho đơn từ 200.000đ (áp dụng khách trả góp lần đầu qua Home Paylater - SL có hạn)</span><br><span style="color:#000"><img src="/images/uploaded/tích tròn (1).jpg" alt="" width="16" height="17"> Giảm 5% tối đa <strong>500.000đ</strong> cho đơn từ 200.000đ (SL có hạn)</span><br><span style="color:#000"><img src="/images/uploaded/tích tròn (1).jpg" alt="" width="16" height="17"> Giảm 7% tối đa <strong>700.000đ </strong>cho đơn từ 6.000.000đ (SL có hạn)<br></span></p><hr><p><span style="color:#000"><img src="/images/uploaded/icon-gif/write.png" alt="" width="16" height="16"> Đăng ký ngay - xét duyệt online 30s <img src="/images/uploaded/icon-gif/login.png" alt="" width="16" height="16"> <span style="color:#007edb"><a style="color:#007edb" href="https://shorten.asia/BuCDC7m8" tabindex="0">Bấm vào đây</a></span></span></p></div></div></div></div></div><div class="add-info"><div class="prices"><span class="price old-price">1.590.000₫</span> <span class="price actual-price">790.000₫</span></div><div class="append_price_percent"></div><div class="buttons"><button type="button" class="button-2 product-box-add-to-cart-button" onclick="return AjaxCart.addproducttocart_catalog(&quot;/addproducttocart/catalog/161/1/1?forceredirection=True&quot;),!1" tabindex="0">Mua ngay</button> <button type="button" class="button-2 add-to-compare-list-button" title="Thêm vào danh sách so sánh" onclick="return AjaxCart.addproducttocomparelist(&quot;/compareproducts/add/161&quot;),!1" tabindex="0">Thêm vào danh sách so sánh</button> <button type="button" class="button-2 add-to-wishlist-button" title="Thêm vào danh sách yêu thích" onclick="return AjaxCart.addproducttocart_catalog(&quot;/addproducttocart/catalog/161/2/1&quot;),!1" tabindex="0">Thêm vào danh sách yêu thích</button></div></div></div></div></div></div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="title_checkout_billing">Thông tin thanh toán</div>
+                                    <div class="content-notlogin"><p>Đăng nhập ngay để nhận được “điểm thưởng” hấp dẫn khi mua hàng thành công các sản phẩm tại ShopDunk</p><a href="/login">Đăng nhập ngay</a></div>
+                                    <div class="all_checkout-billing"><div id="checkout-billing-load"><div class="checkout-data"><div class="section new-billing-address" id="billing-new-address-form"><div class="enter-address bg-white"><input class="address-id" type="hidden" data-val="true" data-val-required="The Id field is required." id="BillingNewAddress_Id" name="BillingNewAddress.Id" value="0"><div class="edit-address"><div class="inputs"><input placeholder="Tên" type="text" id="BillingNewAddress_FirstName" name="BillingNewAddress.FirstName"> <span></span></div><div class="inputs two_col left"><input placeholder="Số điện thoại" type="tel" id="BillingNewAddress_PhoneNumber" name="BillingNewAddress.PhoneNumber"> <span></span></div><div class="inputs two_col right"><input placeholder="Email" type="email" id="BillingNewAddress_Email" name="BillingNewAddress.Email"> <span></span></div><div class="tt_receive_method">Hình thức nhận hàng</div><div class="inputs one-col receive_method"><input type="radio" id="receive_store" name="receive" value="0" checked=""> <label for="receive_store">Nhận tại cửa hàng</label> <input type="radio" id="receive_home" name="receive" value="1"> <label for="receive_home">Giao tận nơi</label></div><div class="inputs two_col left"><label for="BillingNewAddress_StateProvinceId">Tỉnh, thành phố:</label> <select data-trigger="state-select" data-county="#BillingNewAddress_CountyId" data-loading="#states-loading-progress" id="BillingNewAddress_StateProvinceId" name="BillingNewAddress.StateProvinceId"><option value="0">Chọn tỉnh, thành phố</option><option value="1755">Hà Nội</option><option value="1756">Thành phố Hồ Chí Minh</option><option value="1757">Đà Nẵng</option><option value="1758">Hải Phòng</option><option value="1759">Cần Thơ</option><option value="1812">An Giang</option><option value="1805">Bà Rịa - Vũng Tàu</option><option value="1816">Bạc Liêu</option><option value="1773">Bắc Giang</option><option value="1762">Bắc Kạn</option><option value="1776">Bắc Ninh</option><option value="1808">Bến Tre</option><option value="1803">Bình Dương</option><option value="1791">Bình Định</option><option value="1801">Bình Phước</option><option value="1795">Bình Thuận</option><option value="1817">Cà Mau</option><option value="1761">Cao Bằng</option><option value="1798">Đắk Lắk</option><option value="1799">Đắk Nông</option><option value="1765">Điện Biên</option><option value="1804">Đồng Nai</option><option value="1811">Đồng Tháp</option><option value="1797">Gia Lai</option><option value="1760">Hà Giang</option><option value="1780">Hà Nam</option><option value="1785">Hà Tĩnh</option><option value="1777">Hải Dương</option><option value="1814">Hậu Giang</option><option value="1769">Hòa Bình</option><option value="1778">Hưng Yên</option><option value="1813">Kiên Giang</option><option value="1796">Kon Tum</option><option value="1793">Khánh Hòa</option><option value="1766">Lai Châu</option><option value="1771">Lạng Sơn</option><option value="1764">Lào Cai</option><option value="1800">Lâm Đồng</option><option value="1806">Long An</option><option value="1781">Nam Định</option><option value="1782">Ninh Bình</option><option value="1794">Ninh Thuận</option><option value="1784">Nghệ An</option><option value="1774">Phú Thọ</option><option value="1792">Phú Yên</option><option value="1786">Quảng Bình</option><option value="1789">Quảng Nam</option><option value="1772">Quảng Ninh</option><option value="1790">Quảng Ngãi</option><option value="1787">Quảng Trị</option><option value="1815">Sóc Trăng</option><option value="1767">Sơn La</option><option value="1802">Tây Ninh</option><option value="1807">Tiền Giang</option><option value="1763">Tuyên Quang</option><option value="1779">Thái Bình</option><option value="1770">Thái Nguyên</option><option value="1783">Thanh Hóa</option><option value="1788">Thừa Thiên Huế</option><option value="1809">Trà Vinh</option><option value="1810">Vĩnh Long</option><option value="1775">Vĩnh Phúc</option><option value="1768">Yên Bái</option></select> <span id="states-loading-progress" style="display:none" class="please-wait">Chờ đợi...</span> <span></span></div><div class="inputs two_col right"><label for="BillingNewAddress_CountyId">Quận, huyện:</label> <select data-trigger="county-select" id="BillingNewAddress_CountyId" name="BillingNewAddress.CountyId"> </select> <span id="states-loading-progress" style="display:none" class="please-wait">Chờ đợi...</span> <span></span></div><div class="all_receive_store" style="display: block;"><div class="choose_area_store"><div class="select_receive_store ui-widget"><select autocomplete="on" name="select_receive_store" id="js__apply_now"> </select></div></div></div><div class="all_receive_home" style="display: none;"><div class="inputs one-col"><label for="BillingNewAddress_Address1">Địa chỉ cụ thể:</label> <input type="text" id="BillingNewAddress_Address1" name="BillingNewAddress.Address1"> <span></span></div></div></div></div></div></div><div class="bill_company"><div class="checkbox_bill_company"><input id="sl_bill_company" type="checkbox" name="sl_bill_company" value="1"> <label for="sl_bill_company">Xuất hoá đơn công ty</label></div><fieldset class="answer"><input type="text" id="fn_company" name="fn_company" placeholder="Tên công ty"> <input type="text" id="f_add_company" name="f_add_company" placeholder="Địa chỉ công ty"> <input type="text" id="f_tax_company" name="f_tax_company" placeholder="Mã số thuế"></fieldset></div></div><div id="checkout-payment-load"><div class="checkout-data"><div class="section payment-method"><div class="tt-address-select">Thông tin thanh toán</div><div class="notice-payment" style="text-align:left">Quý khách vui lòng lựa chọn các hình thức thanh toán dưới đây:</div><ul class="method-list" id="payment-method-block"><li style="display:block"><div class="method-name"><div class="payment-details d-flex"><div class="d-flex align-items-center"><input onclick="selectPaymentMethod(&quot;PaymentKredivo&quot;)" id="paymentmethod_0" type="radio" name="paymentmethod" value="Payments.Kredivo"></div><div class="payment-logo"><label for="paymentmethod_0"> <img src="https://shopdunk.com/Plugins/Payments.Kredivo/logo.jpg" alt="Thanh toán Kredivo" width="36" height="36"> </label></div><div class="d-flex align-items-center item_paymentmethod" style="width:100%"><label for="paymentmethod_0">Thanh toán Kredivo</label></div></div></div></li><li style="display:block"><div class="method-name"><div class="payment-details d-flex"><div class="d-flex align-items-center"><input onclick="selectPaymentMethod(&quot;PaymentOnepay&quot;)" id="paymentmethod_1" type="radio" name="paymentmethod" value="Payments.Onepay"></div><div class="payment-logo"><label for="paymentmethod_1"> <img src="https://shopdunk.com/Plugins/Payments.Onepay/logo.jpg" alt="Thanh toán OnePay" width="36" height="36"> </label></div><div class="d-flex align-items-center item_paymentmethod" style="width:100%"><label for="paymentmethod_1">Thanh toán OnePay</label></div></div></div></li><li style="display:block"><div class="method-name"><div class="payment-details d-flex"><div class="d-flex align-items-center"><input onclick="selectPaymentMethod(&quot;PaymentPayoo&quot;)" id="paymentmethod_2" type="radio" name="paymentmethod" value="Payments.Payoo"></div><div class="payment-logo"><label for="paymentmethod_2"> <img src="https://shopdunk.com/Plugins/Payments.Payoo/logo.jpg" alt="Thanh toán Payoo" width="36" height="36"> </label></div><div class="d-flex align-items-center item_paymentmethod" style="width:100%"><label for="paymentmethod_2">Thanh toán Payoo</label></div></div></div></li><li style="display:block"><div class="method-name"><div class="payment-details d-flex"><div class="d-flex align-items-center"><input onclick="selectPaymentMethod(&quot;PaymentVietQr&quot;)" id="paymentmethod_3" type="radio" name="paymentmethod" value="Payments.VietQr" checked=""></div><div class="payment-logo"><label for="paymentmethod_3"> <img src="https://shopdunk.com/Plugins/Payments.VietQr/logo.jpg" alt="Chuyển khoản ngân hàng" width="36" height="36"> </label></div><div class="d-flex align-items-center item_paymentmethod" style="width:100%"><label for="paymentmethod_3">Chuyển khoản ngân hàng</label></div></div></div></li></ul></div></div><div><div class="payment-info-busy"></div><div id="checkout-payment-info"></div></div></div></div>
+                                </div>
+                                <div class="row">
+                                    <div class="cart-footer col-sm-12 col-lg-6">
+                                        <div class="sidebar-cart">
+                                            <div class="cart-collaterals">
+                                                <div class="deals">
+                                                    <div class="coupon-box">
+                                                        <div class="title">
+                                                            <strong>Mã giảm giá</strong>
+                                                        </div>
+                                                        <div class="hint">Nhập phiếu giảm giá của bạn tại đây</div>
+                                                        <div class="coupon-code">
+                                                            <input name="discountcouponcode" id="discountcouponcode" placeholder="Mã giảm giá" type="text" class="discount-coupon-code" aria-label="Nhập mã phiếu giảm giá">
+                                                            <button type="submit" name="applydiscountcouponcode" id="applydiscountcouponcode" class="button-2 apply-discount-coupon-code-button">Áp dụng</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="totals">
+                                                <div class="total-info">
+                                                    <table class="cart-total">
+                                                        <tbody>
+                                                            <tr class="order-subtotal">
+                                                                <td class="cart-total-left">
+                                                                    <label>Tổng phụ:</label>
+                                                                </td>
+                                                                <td class="cart-total-right">
+                                                                    <span class="value-summary">26.490.000₫</span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr class="order-total">
+                                                                <td class="cart-total-left">
+                                                                    <label>Tổng cộng:</label>
+                                                                </td>
+                                                                <td class="cart-total-right">
+                                                                    <span class="value-summary">26.490.000₫</span>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <div id="terms-of-service-warning-box" title="Điều khoản dịch vụ" style="display:none">
+                                                    <p>Vui lòng chấp nhận các điều khoản dịch vụ trước bước tiếp theo.</p>
+                                                </div>
+                                                <div class="terms-of-service">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <input id="termsofservice" type="checkbox" name="termsofservice">
+                                                        </div>
+                                                        <label for="termsofservice">
+                                                            <span class="rule-web">Tôi đã đọc và đồng ý với</span>
+                                                            <a href="/chinh-sach-doi-tra" class="read" target="_blank">điều khoản và điều kiện</a>
+                                                            <span class="rule-web">của website</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="checkout-buttons">
+                                                    <button type="submit" id="checkout" name="checkout" value="checkout" class="button-1 checkout-button"> Tiến hành đặt hàng </button>
+                                                </div>
+                                                <div class="note-ck">(*) Phí phụ thu sẽ được tính khi bạn tiến hành thanh toán.</div>
+                                                <div class="addon-buttons"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
